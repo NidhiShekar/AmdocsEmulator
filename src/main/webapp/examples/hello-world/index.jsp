@@ -60,6 +60,10 @@
 <body>
     <br/>
     <h1>Hello <span id='username'></span></h1>
-    <h3>Lead Details: <span id='leaddetails'></span></h3>
+    <form action="/action_page.php" method="get">
+
+  <button type="submit">Submit using POST</button>
+  <button type="submit" formmethod="post" formaction="./index.html">Submit using POST</button>
+</form>
 </body>
 </html>
