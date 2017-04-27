@@ -77,7 +77,7 @@
 	    <h3>Profile: <span id='profileId'></span></h3>
 	    <h3>Email: <span id='email'></span></h3>
     </div>
-    <h3>Lead Details: </h3><br/>
+    <h3>Opportunity Details: </h3><br/>
      <span id='leaddetails'></span>
 </body>
 </html>
