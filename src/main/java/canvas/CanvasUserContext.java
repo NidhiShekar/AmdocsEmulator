@@ -264,6 +264,7 @@ public class CanvasUserContext{
                userName+ ","+
                firstName+","+
                lastName+ ","+
+               FederationIdentifier+","+
                email+ ","+
                fullName+ ","+
                locale+ ","+
