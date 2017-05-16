@@ -53,6 +53,8 @@ public class CanvasUserContext{
     private boolean accessibilityMode;
     private String profilePhotoUrl;
     private String profileThumbnailUrl;
+    private String FederationIdentifier;
+    
 
     /**
      * The Salesforce user identifier.
@@ -64,6 +66,19 @@ public class CanvasUserContext{
 
     public void setUserId(String userId){
         this.userId = userId;
+    }
+     
+    
+    /**
+     * The Salesforce federation identifier.
+     */
+    @JsonProperty("FederationIdentifier")
+    public String getFederationIdentifier(){
+        return this.FederationIdentifier;
+    }
+
+    public void setFederationIdentifier(String FederationIdentifier){
+        this.FederationIdentifier = FederationIdentifier;
     }
 
     /**
