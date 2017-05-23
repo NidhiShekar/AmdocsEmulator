@@ -106,8 +106,7 @@ public class CanvasEnvironmentContext {
         return locationUrl + ", " +
                uiTheme + "," +
                dimensions.toString() + "," +
-               version.toString() + "," +
-               parameters.toString();
+               version.toString();
     }
 
     @JsonIgnoreProperties(ignoreUnknown=true)
