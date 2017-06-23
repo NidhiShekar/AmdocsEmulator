@@ -19,10 +19,10 @@
 
     <title>Hello World Canvas Example</title>
 
-    <link rel="stylesheet" type="text/css" href="https://cs60.salesforce.com/canvas/sdk/css/canvas.css" />
+    <link rel="stylesheet" type="text/css" href="https://cs60.salesforce.com/canvas/sdk1/css/canvas.css" />
 
     <!-- Include all the canvas JS dependencies in one file -->
-    <script type="text/javascript" src="https://cs60.salesforce.com/canvas/sdk/js/canvas-all.js"></script>
+    <script type="text/javascript" src="https://cs60.salesforce.com/canvas/sdk1/js/canvas-all.js"></script>
                                     
     <!-- Third part libraries, substitute with your own -->
     <script type="text/javascript" src="https://cs60.salesforce.com/canvas/scripts/json2.js"></script>
